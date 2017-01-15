@@ -1,0 +1,29 @@
+{
+  "name": "node-api-mongo-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "method-override": "^2.3.7",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0",
+    "serve-favicon": "^2.3.2",
+    "serve-static": "^1.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "nodemon": "set NODE_PATH=./src; && nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yevhen-strizhnev/NodeAPI-MongoDB.git"
+  },
+  "author": "Yevhen Strizhnev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yevhen-strizhnev/NodeAPI-MongoDB/issues"
+  },
+  "homepage": "https://github.com/yevhen-strizhnev/NodeAPI-MongoDB#readme"
+}
